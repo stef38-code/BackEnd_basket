@@ -1,0 +1,20 @@
+= Application
+:doctype: book
+:encoding: utf-8
+:lang: fr
+:icons: font
+:tip-caption: pass:[&#x1F441;]
+:warning-caption: pass:[&#9888]
+:important-caption: pass:[&#9763;]
+:note-caption: pass:[&#33;]
+:caution-caption: pass:[&#9761;]
+:source-highlighter: rouge
+:rouge-style: github
+:includedir: _includes
+:author: hussard
+:email: ..@..
+:toc: left
+:toclevels: 6
+
+Le module `application` contient les classes de l'application. Ces classes dépendent des classes du **domaine** et doivent être testables avec **une fausse couche d'infrastructure**.
+

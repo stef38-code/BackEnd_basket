@@ -1,0 +1,89 @@
+= BackEnd_basket
+:doctype: book
+:encoding: utf-8
+:lang: fr
+:icons: font
+:tip-caption: pass:[&#x1F441;]
+:warning-caption: pass:[&#9888]
+:important-caption: pass:[&#9763;]
+:note-caption: pass:[&#33;]
+:caution-caption: pass:[&#9761;]
+:source-highlighter: rouge
+:rouge-style: github
+:includedir: _includes
+:author: hussard
+:email: ..@..
+:toc: left
+:toclevels: 6
+
+== Cahier des charges
+=== Introduction
+
+Le présent cahier des charges définit les exigences fonctionnelles et non fonctionnelles d'une application de gestion de club de basket-ball. Cette application doit permettre aux responsables du club de gérer les différents aspects de la vie du club, tels que les membres, les équipes, les matchs, les finances et la communication.
+
+=== Objectifs
+Les objectifs de l'application sont les suivants :
+
+* Simplifier la gestion du club
+* Améliorer la communication entre les membres et les responsables
+* Faciliter la collecte et le traitement des données
+
+=== Fonctionnalités
+L'application doit fournir les fonctionnalités suivantes :
+
+==== Gestion des membres
+
+* **Inscription des membres**
+    ** Les champs obligatoires pour l'inscription des membres doivent inclure au moins les informations suivantes :
+        *** Nom
+        *** Prénom
+        *** Date de naissance
+        *** Adresse e-mail
+        *** Téléphone
+        *** Sexe
+        *** Niveau de pratique
+    ** Les types de vérification d'identité que vous souhaitez mettre en place peuvent inclure la validation de l'adresse e-mail, la validation du numéro de téléphone ou la vérification des documents d'identité.
+* **Mise à jour des informations des membres**
+    ** Les champs que les membres peuvent mettre à jour eux-mêmes doivent inclure au moins les informations suivantes :
+        *** Adresse e-mail
+        *** Téléphone
+        *** Adresse postale
+        *** Informations personnelles (par exemple, sexe, taille, poids, poste)
+    ** Les champs que seuls les responsables du club peuvent modifier doivent inclure au moins les informations suivantes :
+        *** Niveau de pratique
+        *** Équipe
+        *** Abonnement
+* **Gestion des abonnements**
+    ** Les différents types d'abonnements que vous proposez peuvent inclure les abonnements suivants :
+        *** Annuel
+        *** Semestriel
+        *** Trimestriel
+        *** Mensuel
+    ** Les modalités de facturation des abonnements peuvent inclure les options suivantes :
+        **** Paiement unique
+        **** Paiement mensuel
+        **** Paiement trimestriel
+        **** Paiement semestriel
+        **** Paiement annuel
+
+==== Gestion des équipes
+
+* **Création des équipes**
+    ** Les informations supplémentaires que vous souhaitez collecter lors de la création des équipes peuvent inclure les informations suivantes :
+        *** Entraîneur
+        *** Horaires des entraînements
+        *** Lieux des entraînements
+        *** Calendrier des matchs
+* **Gestion des joueurs**
+    ** Les informations supplémentaires que vous souhaitez collecter sur les joueurs peuvent inclure les informations suivantes :
+        *** Position
+        *** Pied fort
+        *** Informations médicales
+        *** Informations personnelles (par exemple, hobbies, objectifs)
+* **Gestion des matchs**
+    ** Les informations supplémentaires que vous souhaitez collecter sur les matchs peuvent inclure les informations suivantes :
+        *** Lieu du match
+        *** Heure du match
+        *** Arbitres
+        *** Scores
+        *** Statistiques
