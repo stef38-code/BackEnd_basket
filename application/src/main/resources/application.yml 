@@ -1,0 +1,8 @@
+logging:
+  level:
+    org.springframework: ERROR
+    org.hussard.basketball: INFO
+
+spring:
+  main:
+    banner-mode: off
