@@ -18,3 +18,13 @@
 
 Le module `domain` contient les classes du domaine. Ces classes sont [red]**indépendantes** de l'infrastructure et doivent être testables sans avoir à se soucier de l'infrastructure.
 
+
+== Structure
+
+La structure de ce module est composé de 3 packages :
+
+* model : les classes de données
+* business : les classes métier
+* port : ensemble d'interfaces pour la définition des services des mdoules *application* et *infrastrcuture*
+** in : Interfaces pour définir les services du module `application`
+** out : Interfaces pour définir les services du module `infrastructure`

@@ -18,3 +18,10 @@
 
 Le module `application` contient les classes de l'application. Ces classes dépendent des classes du **domaine** et doivent être testables avec **une fausse couche d'infrastructure**.
 
+== Structure
+
+La structure de ce module est composé de 3 packages :
+
+* dto : les classes de données
+* controller : les controllers de l'application
+* service : ensemble de classe pour fournir différents services, elles doivent impérativement implémenter une interface du module *domain* contenu dans le package [red]*port.in*

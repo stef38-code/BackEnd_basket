@@ -18,3 +18,16 @@
 
 Le module `infrastructure` contient les classes de l'infrastructure. Ces classes [red]**dépendent** des classes du **domaine** et doivent être testables avec une fausse couche de domaine.
 
+== Structure
+
+La structure de ce module est composé de 2 packages :
+
+* entity : les classes de données
+* repository : ensemble de classe pour fournir différents services, elles doivent impérativement implémenter une interface du module *domain* contenu dans le package [red]*port.out*
+
+[NOTE]
+====
+il est possbile d'ajouter d'autres packages comme dans le cas d'utilisation de service rest
+`org.<organisme>.<nom-appli>.infrastructure.rest`. +
+[red]*Il devra dans tout les cas implèmenter une interface du module `domain` contenu dans le package `port.out`*
+====
