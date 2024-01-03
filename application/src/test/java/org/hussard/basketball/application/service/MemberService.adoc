@@ -1,0 +1,5 @@
+= MemberService
+
+== getMember
+* Doit retourner un membre s'il existe
+* Doit lancer une exception un membre si n'existe pas

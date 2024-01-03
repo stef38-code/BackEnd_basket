@@ -1,0 +1,5 @@
+= MemberController
+
+== getMember
+* Doit retourner un membre s'il existe
+* Doit retourner `No FOUND` un membre si n'existe pas
